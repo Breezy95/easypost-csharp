@@ -947,7 +947,6 @@ namespace EasyPost.Models.API
 	[JsonProperty("tax_id_expiration_date")]
         public string? TaxIdExpirationdate { get; set; }
 
-
         #endregion
 
     }
