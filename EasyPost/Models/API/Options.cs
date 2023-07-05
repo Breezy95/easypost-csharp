@@ -944,6 +944,9 @@ namespace EasyPost.Models.API
         public string? SpecialRatesEligibility { get; set; }
         [JsonProperty("suppress_etd")]
         public bool? SuppressEtd { get; set; }
+	[JsonProperty("tax_id_expiration_date")]
+        public string? TaxIdExpirationdate { get; set; }
+
 
         #endregion
 
